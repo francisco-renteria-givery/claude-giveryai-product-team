@@ -35,7 +35,10 @@ The team has 2 projects, each with its own Notion page. The hub only links to th
 - Note: "Givery AI Home" (`36a6931cc449806dbbbae905a627aab2`) is NOT a project.
 
 ## Team members (6)
-The Members database holds roles and basic info only. Don't tag members by project.
+The Members database holds roles, basic info (Name (JP), Joined Givery, Skills) and a full profile copied into each member's page body.
+Profiles were COPIED (not linked) from the company Org Chart; never link back to it. Don't tag members by project.
+Tom Hickie and Pinta Thunyalak have no Org Chart profile yet (no content / join date).
+About page has an org chart: Manager → Product / Engineering / Quality.
 - Francisco Rentería – Manager
 - Tom Hickie – Engineer (frontend)
 - Chinni Srikar – Engineer
