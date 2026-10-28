@@ -20,8 +20,9 @@ Child pages / databases under the root:
 
 ## Projects: link, never duplicate
 The team has 2 projects, each with its own Notion page. The hub only links to them:
-- Givery AI Home – `36a6931cc449806dbbbae905a627aab2`
+- 法務dx (Legal DX, TENA) – `4066931cc44980f8bddde488bc32ba2b`
 - Givery AI Recorder – `3f36931cc44980ebb34fc1cdddb83673`
+- Note: "Givery AI Home" (`36a6931cc449806dbbbae905a627aab2`) is NOT a project.
 
 ## Team members (6)
 The Members database holds roles and basic info only. Don't tag members by project.
