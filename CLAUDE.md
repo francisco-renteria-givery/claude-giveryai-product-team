@@ -8,15 +8,20 @@ This project (and every session in it) works on the Givery AI Team Notion page.
 - Use the Notion MCP tools (`notion-fetch`, `notion-update-page`, `notion-create-pages`, `notion-create-database`) against this page ID.
 - Goal: a team hub with members, news, team rules, and general information.
 
-## Page structure (built 2026-10-28)
-Child pages / databases under the root:
-- Team Info – page `4076931cc449812eb6b0d2fec60e6360`
-- Team Rules & Ways of Working – page `4076931cc4498105b618cd545fe311a2`
-- Onboarding – page `4076931cc4498141ae87c958d65632c4`
-- Members – database, data source `collection://1aff5912-2f89-477d-802d-f58f8a551cb9`
-- News & Announcements – database, data source `collection://660f9819-3952-4879-9cdf-41bed05ac8d9`
-- Meetings & Rituals – database, data source `collection://64078b8f-b1d3-486f-b0fb-bf44260d2119`
-- Slack Channels – database, data source `collection://3bfdf717-8b64-47f1-b95f-6cbd1ed35fc5` (giveryai_prod_* channels; "prod" = Product)
+## Page structure
+Hub navigation is the **Sections** database (inline gallery "Cards" on the root page),
+data source `collection://e84d34fd-76a4-4504-ae76-8f21d9e3cff1` (props: Name, Tagline, Order).
+Each section is a row in it:
+- Team (row `4076931cc44981818098cd10351e5de6`) → contains Members database, data source `collection://1aff5912-2f89-477d-802d-f58f8a551cb9`
+- News (row `4076931cc44981c69b97e12caf17354e`) → contains News & Announcements database, data source `collection://660f9819-3952-4879-9cdf-41bed05ac8d9`
+- Meetings (row `4076931cc449818284e7c580a21f3cd1`) → contains Meetings & Rituals database, data source `collection://64078b8f-b1d3-486f-b0fb-bf44260d2119`
+- Team Info – row/page `4076931cc449812eb6b0d2fec60e6360`
+- Team Rules & Ways of Working – row/page `4076931cc4498105b618cd545fe311a2`
+- Onboarding – row/page `4076931cc4498141ae87c958d65632c4`
+
+Also on the root page:
+- Communication section: Slack Channels database, data source `collection://3bfdf717-8b64-47f1-b95f-6cbd1ed35fc5` (giveryai_prod_* channels; "prod" = Product)
+- Style: Givery brand (red #C80000 / black / white): red_bg banner callouts, red ● before headings, logo cover.
 
 ## Projects: link, never duplicate
 The team has 2 projects, each with its own Notion page. The hub only links to them:
