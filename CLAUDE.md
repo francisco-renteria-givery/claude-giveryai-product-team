@@ -16,6 +16,7 @@ Child pages / databases under the root:
 - Members – database, data source `collection://1aff5912-2f89-477d-802d-f58f8a551cb9`
 - News & Announcements – database, data source `collection://660f9819-3952-4879-9cdf-41bed05ac8d9`
 - Meetings & Rituals – database, data source `collection://64078b8f-b1d3-486f-b0fb-bf44260d2119`
+- Slack Channels – database, data source `collection://3bfdf717-8b64-47f1-b95f-6cbd1ed35fc5` (giveryai_prod_* channels; "prod" = Product)
 
 ## Projects: link, never duplicate
 The team has 2 projects, each with its own Notion page. The hub only links to them:
