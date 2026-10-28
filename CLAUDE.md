@@ -43,5 +43,5 @@ About page has an org chart: Manager → Product / Engineering / Quality.
 - Tom Hickie – Engineer (frontend)
 - Chinni Srikar – Engineer
 - Zin WaiWai Nwe – Engineer
-- Miri Den (田美里) – Product Manager
+- Miri Den (田美里) – Project Manager (Product Manager role currently vacant; covered by Francisco)
 - Pinta Thunyalak – QA
