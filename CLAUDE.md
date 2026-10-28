@@ -21,3 +21,12 @@ Child pages / databases under the root:
 The team has 2 projects, each with its own Notion page. The hub only links to them:
 - Givery AI Home – `36a6931cc449806dbbbae905a627aab2`
 - Givery AI Recorder – `3f36931cc44980ebb34fc1cdddb83673`
+
+## Team members (6)
+The Members database holds roles and basic info only. Don't tag members by project.
+- Francisco Rentería – Manager
+- Tom Hickie – Engineer (frontend)
+- Chinni Srikar – Engineer
+- Zin WaiWai Nwe – Engineer
+- Miri Den (田美里) – Product Manager
+- Pinta Thunyalak – QA
