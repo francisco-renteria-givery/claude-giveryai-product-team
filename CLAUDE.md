@@ -15,15 +15,16 @@ Givery AI Team (root)
 │   ├── Team      `4076931cc44981818098cd10351e5de6` – linked view of Members
 │   ├── News      `4076931cc44981c69b97e12caf17354e` – linked view of News
 │   ├── Meetings  `4076931cc449818284e7c580a21f3cd1` – linked view of Meetings
-│   ├── Team Info `4076931cc449812eb6b0d2fec60e6360`
-│   ├── Team Rules & Ways of Working `4076931cc4498105b618cd545fe311a2`
-│   └── Onboarding `4076931cc4498141ae87c958d65632c4`
+│   ├── About `4076931cc449812eb6b0d2fec60e6360`
+│   ├── Rules `4076931cc4498105b618cd545fe311a2`
+│   └── Onboarding `4076931cc4498141ae87c958d65632c4` – includes linked Slack Channels table
 └── Databases `4076931cc44981b59b3df770c3db9d65` – all source databases live here
     ├── Members – `collection://1aff5912-2f89-477d-802d-f58f8a551cb9`
     ├── News & Announcements – `collection://660f9819-3952-4879-9cdf-41bed05ac8d9`
     ├── Meetings & Rituals – `collection://64078b8f-b1d3-486f-b0fb-bf44260d2119`
     └── Slack Channels – `collection://3bfdf717-8b64-47f1-b95f-6cbd1ed35fc5` (giveryai_prod_*; "prod" = Product)
 ```
+Hub Communication section = short static summary of channels; full table lives in Onboarding.
 Rule: new databases go in **Databases**; the hub and section pages show only linked views.
 Style: Givery brand (red #C80000 / black / white): red_bg banner callouts, red ● before headings, logo cover.
 
