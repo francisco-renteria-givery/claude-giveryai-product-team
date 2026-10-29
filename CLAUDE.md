@@ -34,6 +34,21 @@ The team has 2 projects, each with its own Notion page. The hub only links to th
 - Givery AI Recorder – `3f36931cc44980ebb34fc1cdddb83673`
 - Note: "Givery AI Home" (`36a6931cc449806dbbbae905a627aab2`) is NOT a project.
 
+## Project governance
+Each project has a Governance page (roles, decision rights, release gates, escalation, safeguards) under its Product Development page, with its own Decision Register database. Governance lives in the project, not the hub.
+- **Givery AI Recorder** – Product Development `3f36931cc449814f80efd8876f101800`
+  - Governance `4076931cc44981cfb9a6e67a1c4145c5`
+  - Decision Register – `collection://884a62c1-9519-4d33-8829-4626bf3df8b2` (IDs `REC-DEC-n`; relation to Recorder Releases)
+  - Roles: Product Head = Francisco; Business Owner = Tsuboi-san (坪井琢磨, no deputy); Project Manager = Miri; Product Manager and Engineering Lead vacant (covered by Francisco); QA = Pinta (can block releases).
+  - Release gates tiered by channel (firmware / mobile app / portal+backend).
+- **法務dx (TENA)** – Product Development `4086931cc44981878b1ee895fe662e77`
+  - Governance `4086931cc44981caa88fc9998997190b`
+  - Decision Register – `collection://a8df0c6c-48f5-424d-8213-bedcebcb4d1c` (IDs `TENA-DEC-n`); backfilled with 23 Historical entries from the Handover page (Reconstructed/Unconfirmed, no decision owners).
+  - All roles are ⟨TBD⟩ placeholders; development paused from November 2026.
+- Safeguards (both projects): QA overrides, skipped/waived gates and hotfixes always need a Decision Register entry; any interim role concentration is shown as "Vacant — covered by …".
+- Historical entries: mark Verified / Reconstructed / Unconfirmed; never attribute decision owners without evidence.
+- Team-facing pages must not reference individual feedback that led to the governance work.
+
 ## Team members (6)
 The Members database holds roles, basic info (Name (JP), Joined Givery, Skills) and a full profile copied into each member's page body.
 Profiles were COPIED (not linked) from the company Org Chart; never link back to it. Don't tag members by project.
