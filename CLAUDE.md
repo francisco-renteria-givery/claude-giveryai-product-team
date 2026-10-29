@@ -45,6 +45,9 @@ Each project has a Governance page (roles, decision rights, release gates, escal
   - Governance `4086931cc44981caa88fc9998997190b`
   - Decision Register – `collection://a8df0c6c-48f5-424d-8213-bedcebcb4d1c` (IDs `TENA-DEC-n`); backfilled with 23 Historical entries from the Handover page (Reconstructed/Unconfirmed, no decision owners).
   - All roles are ⟨TBD⟩ placeholders; development paused from November 2026.
+  - Incidents – `collection://76f24548-078d-4316-95a8-e83af3d119a4` (IDs `TENA-INC-n`); while paused only Critical (login down, data loss/corruption, security incident) is handled now, the rest is "Log for restart".
+  - Main page layout (mirrors Recorder): header callout, environments, tools, 4 columns → Product Overview `4086931cc44981d1b34cfe4eeb05f600`, Roadmap `4086931cc44981d6b467ee688fc419a6`, Product Development, Resources `4086931cc4498100965cd9e2d9182eab` (holds the Handover page and "Handover meeting – 2026-10-27"); then Support while paused, Open items, linked views of Incidents and Decision Register.
+  - Legal contact: Kondo-san (近藤永生). Never put login credentials on the main page.
 - Safeguards (both projects): QA overrides, skipped/waived gates and hotfixes always need a Decision Register entry; any interim role concentration is shown as "Vacant — covered by …".
 - Historical entries: mark Verified / Reconstructed / Unconfirmed; never attribute decision owners without evidence.
 - Team-facing pages must not reference individual feedback that led to the governance work.
