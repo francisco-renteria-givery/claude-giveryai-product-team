@@ -26,6 +26,7 @@ Givery AI Team (root)
 ```
 Hub Communication section = short static summary of channels; full table lives in Onboarding.
 Rule: new databases go in **Databases**; the hub and section pages show only linked views.
+Working hours follow the company Flextime Agreement: core time 13:00–16:00 JST, flexible 08:00–13:00 start / 16:00–22:00 end, min 6h/day + 1h break. Never write a different core time.
 Style: Givery brand (red #C80000 / black / white): red_bg banner callouts, red ● before headings, logo cover.
 
 ## Projects: link, never duplicate
