@@ -16,8 +16,9 @@ Givery AI Team (root)
 │   ├── News      `4076931cc44981c69b97e12caf17354e` – linked view of News
 │   ├── Meetings  `4076931cc449818284e7c580a21f3cd1` – linked view of Meetings
 │   ├── About `4076931cc449812eb6b0d2fec60e6360`
-│   ├── Rules `4076931cc4498105b618cd545fe311a2`
-│   └── Onboarding `4076931cc4498141ae87c958d65632c4` – includes linked Slack Channels table
+│   ├── Rules `4076931cc4498105b618cd545fe311a2` – team policies only
+│   │   └── Working Hours & Attendance `4086931cc449818f8efddce38909f737` – single source for hours, kintai, office days, remote work
+│   └── Onboarding `4076931cc4498141ae87c958d65632c4` – all new-member steps; includes linked Slack Channels table
 └── Databases `4076931cc44981b59b3df770c3db9d65` – all source databases live here
     ├── Members – `collection://1aff5912-2f89-477d-802d-f58f8a551cb9`
     ├── News & Announcements – `collection://660f9819-3952-4879-9cdf-41bed05ac8d9`
@@ -26,6 +27,8 @@ Givery AI Team (root)
 ```
 Hub Communication section = short static summary of channels; full table lives in Onboarding.
 Rule: new databases go in **Databases**; the hub and section pages show only linked views.
+Nothing is synced or shared with AI Lab pages; AI Lab is reference only, write our own copy.
+Record three things: Freee (official), #giveryai_prod_kintai, activity report app (稼働報告). Daily 9:30 is expected but flexible.
 Working hours follow the company Flextime Agreement: core time 13:00–16:00 JST, flexible 08:00–13:00 start / 16:00–22:00 end, min 6h/day + 1h break. Never write a different core time.
 Style: Givery brand (red #C80000 / black / white): red_bg banner callouts, red ● before headings, logo cover.
 
